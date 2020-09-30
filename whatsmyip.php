@@ -11,5 +11,4 @@ header("Cache-Control: post-check=0, pre-check=0", false);
 header("Pragma: no-cache");
 
 print(json_encode([
-    'ip' => $_SERVER['REMOTE_ADDR'],
-]));
+    'ip' => $_SERVER['REMOTE_ADDR'],]));
